@@ -10,6 +10,9 @@ import DecorTextUnderline from 'images/text-decor-hero.svg';
 import DecorPlus1 from 'images/decor-plus-style-1.svg';
 import DecorSwirl1 from 'images/decor-swirl-style-1.svg';
 import DecorEllips1 from 'images/decor-ellips-style-1.svg';
+import Facebook from 'images/facebook.svg';
+import Instagram from 'images/instagram.svg';
+import Twitter from 'images/twitter.svg';
 
 export default function Home() {
   return (
@@ -536,7 +539,170 @@ export default function Home() {
       {/* section subscribe newsletter akhir */}
 
       {/* section footer awal */}
-      {/* ........................... */}
+      <section className="pb-32 relative overflow-hidden">
+        <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 -bottom-10 -right-10 bg-accent-6/20"></div>
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="flex mb-12">
+            <div className="w-3/12 px-4">
+              <h6 className="text-5xl tracking-tight text-gray-900 mb-4">
+                Adam
+              </h6>
+              <p className="text-sm text-gray pr-8">
+                Book your trip in minute, get full Control for much longer
+              </p>
+            </div>
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-1000 mt-2 mb-7">
+                Company
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/about" legacyBehavior>
+                    <a>About</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/carerrs" legacyBehavior>
+                    <a>Carerrs</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="mobile" legacyBehavior>
+                    <a>Mobile</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-1000 mt-2 mb-7">
+                Contact
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/faq" legacyBehavior>
+                    <a>Help/FAQ</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/press" legacyBehavior>
+                    <a>Press</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="affilates" legacyBehavior>
+                    <a>Affilates</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-1000 mt-2 mb-7">
+                More
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/airlinefees" legacyBehavior>
+                    <a>Airlinefees</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/airline" legacyBehavior>
+                    <a>Airline</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/low-fare-tips" legacyBehavior>
+                    <a>Low fare tips</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="w-2/12 px-4">
+              {/* icone social media awal */}
+              <ul className="text-lg text-gray-500 flex gap-x-5">
+                <li>
+                  <a
+                    href="https://www.facebook.com/adambuanaputra"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    twrget="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 treansition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Facebook className="fill-black groub-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/adam_buana_putra/"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    twrget="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 treansition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Instagram className="fill-black groub-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/adambuanaputra"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    twrget="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 treansition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Twitter className="fill-black groub-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+              {/* icone social media akhir */}
+              <h6 className="text-xl tracking-tight text-gray-500 mt-7 mb-3">
+                Discover our app
+              </h6>
+              <ul className="flex gap-x-4">
+                <li className="relative w-36 h-12">
+                  <a
+                    href="https://google.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="relative w-full h-full flex overflow-hidden rounded-full "
+                  >
+                    <Image
+                      className="object-contain"
+                      layout="fill"
+                      src="/images/google play.png"
+                      alt="image_googleplay"
+                    />
+                  </a>
+                </li>
+                <li className="relative w-36 h-12">
+                  <a
+                    href="https://apple.com"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="relative w-full h-full flex overflow-hidden rounded-full"
+                  >
+                    <Image
+                      className="object-contain"
+                      layout="fill"
+                      src="/images/Play Store.png"
+                      alt="image_play_store"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-sm text-gray-500">
+            All right reserve@Adam.co
+          </div>
+        </div>
+      </section>
       {/* section footer akhir */}
     </div>
   );
