@@ -515,9 +515,11 @@ export default function Home() {
                     </h5>
                     <form className="flex justify-center">
                       <fieldset className="relative mr-8">
-                        <span className="material-icons text-gray-500 absolute h-full w-16 flex items-center justify-center">
-                          mail_outline
-                        </span>
+                        <div className="w-16 h-16 flex justify-center items-center absolute">
+                          <span className="material-icons text-gray-500">
+                            mail_outline
+                          </span>
+                        </div>
                         <input
                           type="text"
                           placeholder="your Email"
