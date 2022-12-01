@@ -683,8 +683,8 @@ export default function Home() {
                     <Image
                       className="object-contain"
                       layout="fill"
-                      src="/images/google play.png"
-                      alt="image_googleplay"
+                      src="/images/google_play.png"
+                      alt="image_google_play"
                     />
                   </a>
                 </li>
@@ -698,7 +698,7 @@ export default function Home() {
                     <Image
                       className="object-contain"
                       layout="fill"
-                      src="/images/Play Store.png"
+                      src="/images/Play_Store.png"
                       alt="image_play_store"
                     />
                   </a>
