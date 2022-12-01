@@ -353,7 +353,6 @@ export default function Home() {
             {/* posisi text sebelah kiri akhri */}
             <div className="w-full lg:w-5/12 flex items-center justify-center">
               <div className="w-[370px] relative">
-                
                 <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 -top-10 -right-10 bg-accent-7/40"></div>
 
                 <div className="absolute bottom-16 -right-4 lg:right-0 transform translate-x-0 lg:translate-x-1/2 bg-white rounded-2xl w-[263px] z-30 shadow-great p-4 pr-7">
@@ -548,15 +547,13 @@ export default function Home() {
 
       {/* section footer awal */}
       <section className="pb-32 relative overflow-hidden">
-        <div className="absolute w-80 h-80 bottom-0 right-0 overflow-hidden">
-          
-        </div>
+        <div className="absolute w-80 h-80 bottom-0 right-0 overflow-hidden"></div>
         <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 -bottom-10 -right-10 bg-accent-6/20"></div>
         <div className="max-w-full lg:max-w-7xl mx-auto relative px-4">
           <div className="flex flex-wrap mb-12">
             <div className="w-full lg:w-3/12 px-4">
               <h6 className="text-5xl tracking-tight text-gray-900 mb-4">
-                Adam
+                Jadoo
               </h6>
               <p className="text-sm text-gray pr-8">
                 Book your trip in minute, get full Control for much longer
@@ -710,7 +707,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center text-sm text-gray-500">
-            All right reserve@Adam.co
+            All right reserve@Bedi.co
           </div>
         </div>
       </section>
